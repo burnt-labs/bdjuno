@@ -17,6 +17,8 @@ import (
 
 	"github.com/forbole/bdjuno/v4/database"
 	"github.com/forbole/bdjuno/v4/modules"
+
+	xionapp "github.com/burnt-labs/xion/app"
 )
 
 func main() {
@@ -56,6 +58,7 @@ func main() {
 func getBasicManagers() []module.BasicManager {
 	return []module.BasicManager{
 		simapp.ModuleBasics,
+		xionapp.ModuleBasics,
 	}
 }
 
@@ -64,6 +67,7 @@ func getBasicManagers() []module.BasicManager {
 // This should be edited by custom implementations if needed.
 func getAddressesParser() messages.MessageAddressesParser {
 	return messages.JoinMessageParsers(
+		// todo: define custom parsers if xion needs any
 		messages.CosmosMessageAddressesParser,
 	)
 }
