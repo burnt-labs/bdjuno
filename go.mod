@@ -1,20 +1,20 @@
 module github.com/forbole/callisto/v4
 
-go 1.22.2
+go 1.22.7
 
-toolchain go1.23.0
+toolchain go1.23.1
 
 require (
 	cosmossdk.io/log v1.4.1
 	cosmossdk.io/math v1.3.0
-	cosmossdk.io/store v1.1.0
+	cosmossdk.io/store v1.1.1
 	cosmossdk.io/x/evidence v0.1.1
 	cosmossdk.io/x/feegrant v0.1.1
 	cosmossdk.io/x/upgrade v0.1.4
 	github.com/CosmWasm/wasmd v0.53.0
 	github.com/burnt-labs/xion v0.0.0
 	github.com/cometbft/cometbft v0.38.12
-	github.com/cosmos/cosmos-sdk v0.50.9
+	github.com/cosmos/cosmos-sdk v0.50.10
 	github.com/cosmos/gogoproto v1.7.0
 	github.com/forbole/juno/v6 v6.0.1
 	github.com/go-co-op/gocron v1.37.0
@@ -47,7 +47,7 @@ require (
 	cosmossdk.io/core v0.12.0 // indirect
 	cosmossdk.io/depinject v1.0.0 // indirect
 	cosmossdk.io/errors v1.0.1 // indirect
-	cosmossdk.io/x/tx v0.13.4 // indirect
+	cosmossdk.io/x/tx v0.13.5 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/4meepo/tagalign v1.3.3 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
@@ -106,7 +106,7 @@ require (
 	github.com/cosmos/gogogateway v1.2.0 // indirect
 	github.com/cosmos/iavl v1.2.0 // indirect
 	github.com/cosmos/ibc-go/modules/capability v1.0.1 // indirect
-	github.com/cosmos/ibc-go/v8 v8.5.0 // indirect
+	github.com/cosmos/ibc-go/v8 v8.5.1 // indirect
 	github.com/cosmos/ics23/go v0.11.0 // indirect
 	github.com/cosmos/ledger-cosmos-go v0.13.3 // indirect
 	github.com/curioswitch/go-reassign v0.2.0 // indirect
@@ -391,7 +391,7 @@ replace (
 
 replace (
 	cosmossdk.io/core => cosmossdk.io/core v0.11.1
-	github.com/burnt-labs/xion => github.com/burnt-labs/xion v0.0.0-20240912183621-f9172bd8aa7d
+	github.com/burnt-labs/xion => github.com/burnt-labs/xion v0.0.0-20241004145102-fcf1c7eeed45
 	github.com/larry0x/abstract-account => github.com/burnt-labs/abstract-account v0.0.0-20240904201714-f31e8234ed64
 	github.com/strangelove-ventures/tokenfactory => github.com/strangelove-ventures/tokenfactory v0.50.3-wasmvm2
 )
